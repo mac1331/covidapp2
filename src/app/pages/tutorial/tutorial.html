@@ -1,0 +1,50 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button color='primary' (click)="startApp()" [hidden]="!showSkip">Saltar explicació</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true">
+  <ion-slides #slides (ionSlideWillChange)="onSlideChangeStart($event)" pager="false">
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-1.png" class="slide-image" />
+      <h2 class="slide-title">
+        Benvingut a
+        <b>"nom de la app aquí"</b>
+      </h2>
+      <p>
+        <b>"nom de la app aquí"</b> es una app per intentar salvar els petits comerços durant el periode de confinament
+         del covid19.
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-2.png" class="slide-image" />
+      <h2 class="slide-title">Que fem?</h2>
+      <p>
+      <b>"nom de la app aquí"</b> ofereix un servei de gestió de tiquets individuals per a poder anar als petits comerços
+      sense risc de trobar-te altres persones.
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-3.png" class="slide-image" />
+      <h2 class="slide-title">Com funciona?</h2>
+      <p>
+        Els comerciants registren la seva botiga i els usuaris poden agafar tickets per anar-hi, d'aquesta manera s'evita que pugui
+        coincidir més d'una persona a l'establiment al mateix temps.
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image" />
+      <h2 class="slide-title">Preparat per salvar els petits comerços?</h2>
+      <ion-button fill="clear" (click)="startApp()">
+        Continuar
+        <ion-icon slot="end" name="arrow-forward"></ion-icon>
+      </ion-button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
