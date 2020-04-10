@@ -13,10 +13,6 @@ const routes: Routes = [
     loadChildren: () => import('./pages/account/account.module').then(m => m.AccountModule)
   },
   {
-    path: 'support',
-    loadChildren: () => import('./pages/support/support.module').then(m => m.SupportModule)
-  },
-  {
     path: 'login',
     loadChildren: () => import('./pages/login/login.module').then(m => m.LoginModule)
   },
@@ -36,10 +32,6 @@ const routes: Routes = [
   {
     path: 'signupcomerc',
     loadChildren: () => import('./pages/signupcomerc/signupcomerc.module').then( m => m.SignupcomercPageModule)
-  },
-  {
-    path: 'signupcomprador',
-    loadChildren: () => import('./pages/signupcomprador/signupcomprador.module').then( m => m.SignupcompradorPageModule)
   },
   {
     path: 'qui-ets',

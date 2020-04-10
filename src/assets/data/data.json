@@ -1,4 +1,7 @@
 {
+  "users":[
+    {"NomUsuari" : [{}]}
+  ],
   "schedule": [
     {
       "date": "2047-05-17",
@@ -246,184 +249,92 @@
 
   "speakers": [
     {
-      "name": "Burt Bear",
-      "profilePic": "/assets/img/speakers/bear.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Burt is a Bear. Burt's interests include poetry, dashing space heroes, and lions.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
+      "name": "Sastreria Manolito 1967",
+      "profilePic": "https://static1.elcomercio.es/www/multimedia/201904/08/media/cortadas/1414524828-kkSE--984x608@El%20Comercio.jpg",
+      "about": "Som una sastreria que ens dediquem a fer trajes des del 1967.",
+      "title": "Sastreria Barcelona",
+      "location": "Barcelona",
       "email": "burt@example.com",
       "phone": "+1-541-754-3010",
+      "horesDisponibles": ["8:00-8:15", "8:15-8:30", "8:30-8:45", "8:45-9:00", "9:00-9:15", "9:15-9:30", "9:30-9:45","9:45-10:00","10:00-10:15","10:15-10:30"],
       "id": "1"
     },
     {
-      "name": "Charlie Cheetah",
-      "profilePic": "/assets/img/speakers/cheetah.jpg",
+      "name": "QB Iformatica Barcelona",
+      "profilePic": "https://www.ecomputer.es/blog/wp-content/uploads/2017/06/IMG_9790_1.jpg",
       "instagram": "ionicframework",
       "twitter": "ionicframework",
-      "about": "Charlie is a Cheetah. Charlie's interests include country music, plush animals, pyrotechnics, and skeletons.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
+      "about": "Reparacions de PCs i instalació de tot tipus de software.",
+      "title": "Infotmatic",
+      "location": "Barcelona",
       "email": "charlie@example.com",
       "phone": "+1-541-754-3010",
+      "horesDisponibles": ["10:30-10:45","10:45-11:00"],
       "id": "2"
     },
     {
-      "name": "Donald Duck",
-      "profilePic": "/assets/img/speakers/duck.jpg",
+      "name": "Agencia Viatges Mikel",
+      "profilePic": "https://www.tecnohotelnews.com/wp-content/uploads/2015/10/PANGEA-The-Travel-Store-17.jpg",
       "instagram": "ionicframework",
       "twitter": "ionicframework",
-      "about": "Donald is a Duck. Donald's interests include carpentry, superheroes, merpeople, and glam rock.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
+      "about": "Organitzem el viatge de la teva vida.",
+      "title": "Agencia Viatges",
+      "location": "Barcelona",
       "email": "donald@example.com",
       "phone": "+1-541-754-3010",
+      "horesDisponibles": ["8:45-9:00", "9:00-9:15", "9:15-9:30", "9:30-9:45"],
       "id": "3"
     },
     {
-      "name": "Eva Eagle",
-      "profilePic": "/assets/img/speakers/eagle.jpg",
+      "name": "Merçeria de l'Eva",
+      "profilePic": "https://www.rutalanera.com/wp-content/uploads/estante.jpg",
       "instagram": "ionicframework",
       "twitter": "ionicframework",
-      "about": "Eva is an Eagle. Eva's interests include ants, seashells, and cupcakes.",
-      "title": "Developer Advocate",
-      "location": "Everywhere",
+      "about": "L'Eva és una avia que porta anys cosint i t'arreglarà qualsevol forat als pantalons.",
+      "title": "Merçeria",
+      "location": "Barcelona",
       "email": "eva@example.com",
       "phone": "+1-541-754-3010",
+      "horesDisponibles": ["8:45-9:00", "9:00-9:15", "9:15-9:30", "9:30-9:45"],
       "id": "4"
     },
     {
-      "name": "Ellie Elephant",
-      "profilePic": "/assets/img/speakers/elephant.jpg",
+      "name": "ElectroBoom BCN",
+      "profilePic": "https://www.expert.es/main-files/uploads/2018/05/tienda-electrodomesticos-girona-expert.jpg",
       "instagram": "ionicframework",
       "twitter": "ionicframework",
-      "about": "Ellie is an Elephant. Ellie's interests include pocket watches, pool, hand fans, and ninjas.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
+      "about": "Botiga d'electrodomestic amb experiencia i productes de qualitat.",
+      "title": "Botiga electrodomèstics",
+      "location": "Barcelona",
       "email": "ellie@example.com",
       "phone": "+1-541-754-3010",
+      "horesDisponibles": ["8:45-9:00", "9:00-9:15", "9:15-9:30", "9:30-9:45"],
       "id": "5"
-    },
-    {
-      "name": "Gino Giraffe",
-      "profilePic": "/assets/img/speakers/giraffe.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Gino is a Giraffe. Gino's interests include candy-making, unicorns, and birdhouses.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
-      "email": "gino@example.com",
-      "phone": "+1-541-754-3010",
-      "id": "6"
-    },
-    {
-      "name": "Isabella Iguana",
-      "profilePic": "/assets/img/speakers/iguana.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Isabella is an Iguana. Isabella's interests include crystals, architecture, and candle-making.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
-      "email": "isabella@example.com",
-      "phone": "+1-541-754-3010",
-      "id": "7"
-    },
-    {
-      "name": "Karl Kitten",
-      "profilePic": "/assets/img/speakers/kitten.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Karl is a Kitten. Karl's interests include skiing, jewelry, and needlepoint.",
-      "title": "Developer Advocate",
-      "location": "Everywhere",
-      "email": "karl@example.com",
-      "phone": "+1-541-754-3010",
-      "id": "8"
-    },
-    {
-      "name": "Lionel Lion",
-      "profilePic": "/assets/img/speakers/lion.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Lionel is a Lion. Lionel's interests include lizards and mathematics.",
-      "title": "Developer Advocate",
-      "location": "Everywhere",
-      "email": "lionel@example.com",
-      "phone": "+1-541-754-3010",
-      "id": "9"
-    },
-    {
-      "name": "Molly Mouse",
-      "profilePic": "/assets/img/speakers/mouse.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Molly is a Mouse. Molly's interests include werewolves and magic.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
-      "email": "molly@example.com",
-      "phone": "+1-541-754-3010",
-      "id": "10"
-    },
-    {
-      "name": "Paul Puppy",
-      "profilePic": "/assets/img/speakers/puppy.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Paul is a Puppy. Paul's interests include maps, whales, and dragons.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
-      "email": "paul@example.com",
-      "phone": "+1-541-754-3010",
-      "id": "11"
-    },
-    {
-      "name": "Rachel Rabbit",
-      "profilePic": "/assets/img/speakers/rabbit.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Rachel is a Rabbit. Rachel's interests include clowns, skeletons, and yo-yos.",
-      "title": "Senior Software Engineer",
-      "location": "Everywhere",
-      "email": "rachel@example.com",
-      "phone": "+1-541-754-3010",
-      "id": "12"
-    },
-    {
-      "name": "Ted Turtle",
-      "profilePic": "/assets/img/speakers/turtle.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Ted is a Turtle. Ted's interests include butterflies, skiing, and cupcakes.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
-      "email": "ted@example.com",
-      "phone": "+1-541-754-3010",
-      "id": "13"
     }
+
   ],
 
   "map": [
     {
-      "name": "Monona Terrace Convention Center",
-      "lat": 43.071584,
-      "lng": -89.38012,
+      "name": "Cal Toti",
+      "lat": 41.6191666,
+      "lng": 0.61833333,
       "center": true
     },
     {
-      "name": "Ionic HQ",
-      "lat": 43.074395,
-      "lng": -89.381056
+      "name": "Informatic Joan",
+      "lat": 41.6191666,
+      "lng": 0.619
     },
     {
-      "name": "Afterparty - Brocach Irish Pub",
-      "lat": 43.07336,
-      "lng": -89.38335
+      "name": "Merçeria Pepito",
+      "lat": 41.62,
+      "lng": 0.61833333
     }
   ],
 
-  "tracks": [
-    {
+  "tracksDisponibles" : [{
+
       "name": "Angular",
       "icon": "logo-angular"
     },

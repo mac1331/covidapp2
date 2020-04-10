@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-button slot="end">Log in</ion-button>
+    <ion-button slot="end" (click)="gotologin()">Log in</ion-button>
   </ion-toolbar>
 </ion-header>
 
@@ -11,32 +11,28 @@
       <ion-col size-md="6" offset-md="3">
         <ion-card>
           <ion-card-header>
-            <ion-card-title>Unirse amb Google <img src="assets/img/logo.png" alt="Ionic Logo" height="20px" width="20px"></ion-card-title>
+            <ion-card-title>Crear-se un compte</ion-card-title>
           </ion-card-header>
           <ion-card-content>
             <form #signupForm="ngForm" novalidate>
               <ion-list lines="none">
                 <ion-item>
-                  <ion-label position="stacked" color="primary">Username</ion-label>
+                  <ion-label position="stacked" color="primary">Usuari</ion-label>
                   <ion-input [(ngModel)]="signup.username" name="username" type="text" #username="ngModel" required>
                   </ion-input>
                 </ion-item>
-                <ion-text color="danger">
-                  <p [hidden]="username.valid || submitted == false" class="ion-padding-start">
-                    Username is required
-                  </p>
-                </ion-text>
 
                 <ion-item>
-                  <ion-label position="stacked" color="primary">Password</ion-label>
-                  <ion-input [(ngModel)]="signup.password" name="password" type="password" #password="ngModel" required>
+                  <ion-label position="stacked" color="primary">Contrassenya</ion-label>
+                  <ion-input  name="password" type="password" required>
                   </ion-input>
                 </ion-item>
-                <ion-text color="danger">
-                  <p [hidden]="password.valid || submitted == false" class="ion-padding-start">
-                    Password is required
-                  </p>
-                </ion-text>
+                <ion-item>
+                  <ion-label position="stacked" color="primary">Repeteix la contrassenya</ion-label>
+                  <ion-input  name="password" type="password"required>
+                  </ion-input>
+                </ion-item>
+
               </ion-list>
 
               <div class="ion-padding">

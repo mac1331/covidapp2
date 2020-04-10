@@ -78,7 +78,7 @@ export class SpeakerDetailPage {
     const mode = 'ios'; // this.config.get('mode');
 
     const actionSheet = await this.actionSheetCtrl.create({
-      header: 'Contact ' + speaker.name,
+      header: 'Contacta amb ' + speaker.name,
       buttons: [
         {
           text: `Email ( ${speaker.email} )`,
@@ -88,7 +88,7 @@ export class SpeakerDetailPage {
           }
         },
         {
-          text: `Call ( ${speaker.phone} )`,
+          text: `Trucar ( ${speaker.phone} )`,
           icon: mode !== 'ios' ? 'call' : null,
           handler: () => {
             window.open('tel:' + speaker.phone);

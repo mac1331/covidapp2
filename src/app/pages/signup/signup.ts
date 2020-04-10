@@ -30,4 +30,7 @@ export class SignupPage {
       this.router.navigateByUrl('/qui-ets');
     }
   }
+  gotologin(){
+    this.router.navigateByUrl('/login')
+  }
 }

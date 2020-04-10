@@ -26,7 +26,7 @@ export class SignupcomercPage implements OnInit {
     )
   }
   onSignup() {
-      // this.router.navigateByUrl('/');
+      this.router.navigateByUrl('/');
   }
   ngOnInit() {
   }
